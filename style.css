@@ -1,0 +1,15 @@
+.dropdown_content{
+    display: none;
+
+}
+.drop{
+    background-color: black;
+    display: inline-block;
+    color: wheat;
+    border-radius: 5px;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+    transition: 10s;
+    transform: rotate(180deg);
+}
